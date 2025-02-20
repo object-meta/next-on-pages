@@ -54,6 +54,7 @@
 		"url": "https://github.com/cloudflare/next-on-pages.git"
 	},
 	"dependencies": {
+		"next": "13.4.2",
 		"acorn": "^8.8.0",
 		"ast-types": "^0.14.2",
 		"chalk": "^5.2.0",
