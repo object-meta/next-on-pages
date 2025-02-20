@@ -69,6 +69,7 @@
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.0",
+		"@cloudflare/next-on-pages": "^1.13.7",
 		"@cloudflare/next-on-pages-next-dev": "*",
 		"@cloudflare/next-on-pages-tsconfig": "*",
 		"@cloudflare/workers-types": "^4.20230404.0",
@@ -88,9 +89,9 @@
 		"vitest-environment-miniflare": "^2.13.0"
 	},
 	"peerDependencies": {
+		"@cloudflare/workers-types": "^4.20240208.0",
 		"vercel": ">=30.0.0",
-		"wrangler": "^3.28.2",
-		"@cloudflare/workers-types": "^4.20240208.0"
+		"wrangler": "^3.28.2"
 	},
 	"peerDependenciesMeta": {
 		"@cloudflare/workers-types": {
